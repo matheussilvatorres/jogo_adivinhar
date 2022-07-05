@@ -1,0 +1,22 @@
+button {
+    border: none;
+    background-color: blue;
+    color: white;
+    transition: filter .2s;
+  }
+  
+  /* pseudo-class :hover */
+  button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
+
+  button {
+    display: block;
+    width: 20%;
+  
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
